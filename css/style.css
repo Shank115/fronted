@@ -1,0 +1,51 @@
+
+/* .background__img {
+    background-image: url("C:\Users\shash\Downloads\banner.jpg");
+    background-attachment: fixed;
+    min-height: 500px;
+        } */
+
+
+
+
+
+
+
+.head {
+text-align: center;
+margin-bottom: 50px;
+font-family: "Poppins", sans-serif;
+
+}
+.login {
+margin-top: 50px;
+font-family: "Poppins", sans-serif;
+
+}
+
+.form {
+flex: 1;
+font-family: "Poppins", sans-serif;
+
+}
+
+
+
+  h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  .remember-me {
+    margin-top: 10px;
+  }
+  .form_last {
+    font-size: large;
+  }
+
+
+
+
+
+

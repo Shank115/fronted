@@ -1,0 +1,45 @@
+.review {
+    color: black;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+@media screen and (min-width: 400px) {
+    .review__title {
+        text-align: center;
+        margin-top: 100px;
+        width: 100%;
+    }
+}
+.review__title {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+.review__desc {
+    text-align: center;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+.review__img {
+    text-align: center;
+}
+.review__img li {
+    display: inline-block;
+    width: 180px;
+    margin: 0 12px 30px;
+    padding: 100px;
+}
+.review__text {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.review__no {
+    color: rgb(122, 197, 247);
+    text-align: center;
+    font-size: x-large;
+}
