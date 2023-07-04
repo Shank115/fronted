@@ -1,0 +1,60 @@
+.header__left {
+    position: relative;
+    width: auto;
+
+    &__nav {
+        display: inline;
+        justify-content: left;
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+        float: left;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        li {
+            display: inline;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+
+.header__toolbar {
+    float: right;
+    position: relative;
+
+    &__right {
+        margin-right: 30px;
+        display: inline;
+        font-family: "Poppins", sans-serif;
+        float: right;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        li {
+            display: inline;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+
+    &__create--button {
+        background-color: orangered;
+        border-radius: 25px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        margin-right: 50px;
+        float: right;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

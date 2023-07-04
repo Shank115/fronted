@@ -1,4 +1,3 @@
-
 @media (min-width: 990px) {
     .catering__support {
         text-align: right;
@@ -7,28 +6,36 @@
 
     }
 }
+
 @media (min-width: 400px) {
     .catering__support {
         text-align: right;
         font-size: 0.875rem;
     }
 }
-.catering__support {
-        font-size: 0.938rem;
-        color: white;
-        padding-right: 100px;
-        font-family: "Poppins", sans-serif;
-        margin-top: 0px;
-    }
-.support__wrapper {
-        height: 2rem;
-        display: flex;
-        background-color: rgb(80, 181, 240);
-        justify-content: end;
-        font-size: 0.938rem;
-        color: white;
-        padding-right: 100px;
-        font-family: "Poppins", sans-serif;
-        margin-top: 0px;
-    }
 
+.catering__support {
+    font-size: 0.938rem;
+    color: white;
+    padding-right: 100px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+}
+
+.support__wrapper {
+    height: 2rem;
+    display: flex;
+    background: #01abce;
+    justify-content: end;
+    font-size: 0.938rem;
+    color: white;
+    padding-right: 100px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 1199px) {
+    .support__wrapper {
+        padding: 8px 0;
+    }
+}

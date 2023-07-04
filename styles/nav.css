@@ -1,0 +1,52 @@
+.header__left {
+  position: relative;
+  width: auto;
+}
+.header__left__nav {
+  display: inline;
+  justify-content: left;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  float: left;
+}
+.header__left__nav a {
+  text-decoration: none;
+  color: black;
+}
+.header__left__nav li {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+}
+
+.header__toolbar {
+  float: right;
+  position: relative;
+}
+.header__toolbar__right {
+  margin-right: 30px;
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  float: right;
+  padding: 10px;
+}
+.header__toolbar__right a {
+  text-decoration: none;
+  color: black;
+}
+.header__toolbar__right li {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+}
+.header__toolbar__create--button {
+  background-color: orangered;
+  border-radius: 25px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-right: 50px;
+  float: right;
+  padding: 10px;
+}
+.header__toolbar__create--button a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=nav.css.map */

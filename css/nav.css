@@ -1,13 +1,8 @@
 .header__left {
-    float: left;
     position: relative;
+    width: auto;
 }
-/* @media (min-width: 400px) {
-    .header__left {
-        float: left;
-        position: relative;
-    }
-} */
+
 .header__left__nav {
     display: inline;
     justify-content: left;
@@ -31,6 +26,7 @@
     float: right;
     position: relative;
 }
+
 .header__tool__right {
     margin-right: 30px;
     display: inline;
@@ -38,14 +34,17 @@
     float: right;
     padding: 10px;
 }
+
 .header__tool__right a {
     text-decoration: none;
     color: black;
 }
+
 .header__tool__right li {
     display: inline;
     font-family: "Poppins", sans-serif;
 }
+
 .header__create--button {
     background-color: orangered;
     border-radius: 25px;
@@ -55,7 +54,31 @@
     float: right;
     padding: 10px;
 }
+
 .header__create--button a {
     text-decoration: none;
     color: white;
 }
+
+
+
+/* @media screen and (max-width: 991px) {
+    .header__left {
+        width: 100%;
+        position: absolute;
+        border: none;
+        left: 0;
+        top: 95px;
+        z-index: 999;
+        box-shadow: none;
+        overflow: hidden;
+        padding: 0 15px;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header__left__nav {
+        max-height: 100% !important;
+    }
+} */

@@ -1,15 +1,18 @@
 
-/* .background__img {
-    background-image: url("C:\Users\shash\Downloads\banner.jpg");
-    background-attachment: fixed;
-    min-height: 500px;
-        } */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
-
-
-
-
-
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 
 .head {
 text-align: center;

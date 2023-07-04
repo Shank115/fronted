@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  background: #fff;
+  padding: 17px 0 0;
+  position: sticky;
+  float: left;
+  z-index: 11;
+  top: 0;
+}
+.header__bar {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .logo {
+  width: 190px;
+  margin: 0 35px -80px -26px;
+  position: relative;
+}
+.header .logo a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+.header .logo img {
+  width: 100%;
+}
+@media screen and (max-width: 1199px) {
+  .header {
+    padding: 10px 0 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header__bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .logo {
+    width: 125px;
+    margin: 0 10px -32px -20px;
+  }
+}/*# sourceMappingURL=header.css.map */
